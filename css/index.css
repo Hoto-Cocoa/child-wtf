@@ -1,0 +1,31 @@
+body {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 0.95rem;
+    height: 100%;
+	position: relative;
+	margin: 0;
+	background-color: black;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	margin: 0;
+}
+#message {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 1.5rem;
+	color: white;
+	word-wrap: break-all;
+}
+#background {
+	opacity: 0.7;
+	background: url('../images/background.jpg');
+	height: 100vh;
+	margin: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
