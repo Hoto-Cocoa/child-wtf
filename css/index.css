@@ -88,8 +88,15 @@ button {
 	/* border-radius: 5px; */
 }
 
-#counter > #value {
+#counter > #value > h1 {
 	margin-left: 30px;
+}
+
+#counter > #value > hr {
+	height: 5px;
+    border: none;
+    background-color: white;
+    width: 200px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -102,5 +109,13 @@ button {
 		margin-left: 10px;
 		margin-right: 10px;
 		font-size: 1.2rem;
+	}
+
+	#counter > #value > hr {
+		width: 150px;
+	}
+
+	#counter > #value > h1 {
+		margin-left: 20px;
 	}
 }
