@@ -29,13 +29,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #background {
-	opacity: 0.7;
-	background: url('../images/background.jpg');
+	opacity: 0.3;
+	background: url('../images/background-blur-8px.png');
 	height: 100vh;
 	margin: 0;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	/* filter: blur(8px);
+	-webkit-filter: blur(8px);
+	-moz-filter: blur(8px);
+	-o-filter: blur(8px);
+	-ms-filter: blur(8px);
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='8'); */
 }
 
 #tabs { 
@@ -78,6 +84,22 @@ button {
 }
 
 #counter {
-	border: 5px solid white;
-	border-radius: 5px;
+	border-left: 5px solid white;
+	/* border-radius: 5px; */
+}
+
+#counter > #value {
+	margin-left: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+	.tabcontent > div {
+		padding: 24px;
+		padding-top: 96px;
+	}
+
+	#message {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
 }
