@@ -94,12 +94,12 @@ button {
 
 @media only screen and (max-width: 768px) {
 	.tabcontent > div {
-		padding: 24px;
-		padding-top: 96px;
+		padding: 12px;
+		padding-top: 84px;
 	}
 
 	#message {
-		margin-left: 25px;
-		margin-right: 25px;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 }
