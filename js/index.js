@@ -1,6 +1,5 @@
 setInterval(() => {
 	const remainingTime = parseInt((new Date('2020/12/21') - Date.now()) / 1000);
-	console.log(remainingTime);
 	if(remainingTime > 0) {
 		const parsedTime = parseTime(remainingTime);
 		document.getElementById('message').innerHTML = '<h2>코코아가 성인이 될 때까지...</h2><div id="counter"><div id="value"><h1>' + parsedTime.days + '일<br>' + parsedTime.hours +'시간 ' + parsedTime.minutes + '분 ' + parsedTime.seconds + '초</h1></div></div>남았습니다.';
