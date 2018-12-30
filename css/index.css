@@ -121,6 +121,11 @@ button {
 	padding: 2px 16px;
 }
 
+.card > .container > h2 {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
 /* .card > img {
 	border-radius: 5px 5px 0 0;
 	width: 500px;
