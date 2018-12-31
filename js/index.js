@@ -1,4 +1,4 @@
-setInterval(() => {
+setInterval(function() {
 	const remainingTime = parseInt((new Date('2020/12/21') - Date.now()) / 1000);
 	if(remainingTime > 0) {
 		const parsedTime = parseTime(remainingTime);
@@ -14,6 +14,6 @@ setInterval(() => {
 		seconds -= hours * 3600;
 		const minutes = parseInt(seconds / 60);
 		seconds -= minutes * 60;
-		return { days, hours, minutes, seconds };
+		return { days: days, hours: hours, minutes: minutes, seconds: seconds };
 	}
 }, 100);
