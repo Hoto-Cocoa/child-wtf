@@ -5,7 +5,7 @@ setInterval(() => {
 		document.getElementById('message').innerHTML = '<h2>코코아가 성인이 될 때까지...</h2><div id="counter"><div id="value"><h1>' + parsedTime.days + '일<br>' + parsedTime.hours +'시간 ' + parsedTime.minutes + '분 ' + parsedTime.seconds + '초</h1></div></div>남았습니다.';
 	} else {
 		const parsedTime = parseTime(-remainingTime);
-		document.getElementById('message').innerHTML = '<h2>코코아가 성인이 되고...</h2><div id="counter"><div id="value"><h1>' + parsedTime.days + '일<br>' + parsedTime.hours +'시간 ' + parsedTime.minutes + '분 ' + parsedTime.seconds + '초</h1></div></div>지났습니다.';	
+		document.getElementById('message').innerHTML = '<h2>코코아가 성인이 되고 나서...</h2><div id="counter"><div id="value"><h1>' + parsedTime.days + '일<br>' + parsedTime.hours +'시간 ' + parsedTime.minutes + '분 ' + parsedTime.seconds + '초</h1></div></div>지났습니다.';	
 	}
 	function parseTime(seconds) {
 		const days = parseInt(seconds / (3600 * 24));
