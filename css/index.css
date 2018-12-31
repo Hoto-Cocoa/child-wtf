@@ -68,7 +68,6 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 5px;
 	background: white;
 	margin: 25px;
-	padding: 12px;
 	height: auto;
 	max-width: 500px;
 }
@@ -107,11 +106,11 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	
 	.card > img {
-		width: calc(100vw - 72px);
+		width: calc(100vw - 48px);
 	}
 
 	.card > .container {
-		padding: 0;
+		padding: 4px;
 	}
 
 	.card > .container > h2 {
