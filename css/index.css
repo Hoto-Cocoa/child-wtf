@@ -12,6 +12,11 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
+a, a:visited{
+	color: #FFC0CB;
+	text-decoration: none;
+}
+
 #mainPage {
 	position: relative;
 	height: 100vh;
@@ -47,12 +52,12 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 30px;
 }
 
-#wcidPage {
+#wcidPage, #thanksPage {
 	text-align: center;
 	min-height: calc(100vh - 25px);
 }
 
-#wcidPage > h1 {
+#wcidPage > h1, #thanksPage > h1 {
 	margin-top: 25px;
 }
 
@@ -88,10 +93,6 @@ h1, h2, h3, h4, h5, h6 {
 .card > .container > h2 {
 	font-size: 1.4em;
 	font-weight: bold;
-}
-
-.card > .container > p {
-	text-align: left;
 }
 
 @media only screen and (max-width: 768px) {
