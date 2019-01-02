@@ -108,6 +108,7 @@ a, a:visited{
 	
 	.card > img {
 		width: calc(100vw - 48px);
+		max-width: 500px;
 	}
 
 	.card > .container {
